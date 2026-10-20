@@ -1,0 +1,36 @@
+Readme del codigo
+NOMBRE: santiago silvera 
+
+el codigo es sencillo en la primera parte importanos las librerias de sqlite3 y las otras son para las variables de la hora y fecha, 
+luegose crea la bse de datos llamda inventario.db y se crea la tabla de productos con sus respectivos campos, luego se crea la funcion de conectar,
+despues se crea la funcion de crear tablas, luego se crea la funcion de leer entero, luego se crea la funcion de leer precio, luego se crea la funcion de registrar producto,
+luego se crea la funcion de consultar productos, luego se crea la funcion de actualizar producto, luego se crea la funcion de eliminar producto, luego se crea la funcion de registrar venta,
+luego se crea la funcion de historial de ventas, luego se crea la funcion de demostrar rollback para demostar esta opcion se hizo "un error provocado" este fuciona de la siguiente manera se realiza una transaccion y se hace un rollback para que no se guarde la transaccion y 
+se usa la funcion de consultar productos para ver que no se guardo la transaccion, 
+luego se crea la funcion de menu y los prnt para que se muestren las opciones del menu y se crea un bucle while para que se repita el menu hasta que el usuario elija la opcion de salir.
+
+
+
+para comunnicarse un pequño diagrama seria:
+
+          usuario 
+(selecciona una opccion del menu)
+            |
+            |
+            v
+          pythom
+(valida datos y ejecuta las operaciones )  
+            |
+            |
+            v
+         SQLite   
+(guarda productos y ejecuta operaciones)
+
+
+
+para ejecutarlo simplemente es copiar el codigo y pegarlo en VC y correrlo, usa  el modelo de datos tablas almacena,modifica y crea. 
+
+            
+    
+
+
